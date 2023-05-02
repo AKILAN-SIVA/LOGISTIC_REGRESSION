@@ -1,0 +1,26 @@
+<html>
+    <head>
+        <title>ML_MODEL</title>
+    </head>
+
+    <body style="background-color:grey">
+        <div >
+        <br><br>
+        <h1 style="text-align:center"> MACHINE LEARNING PREDICTION</h1>
+        </div>
+
+        <center>
+        <form method='POST', action="{{url_for('home')}}">
+            <b>
+                <br><br>
+                Maximum temperature : <input type='text' id='temp_max' name='temp_max'><br><br>
+                Minimum temperature : <input type='text' id='temp_min' name='temp_min'><br><br>
+                wind                : <input type='text' id='wind' name='wind'><br><br>
+            </b>
+            <input type='submit', value='predict'>
+            
+        </form>
+    </center>
+    </body>
+
+</html>
