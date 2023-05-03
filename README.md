@@ -1,11 +1,13 @@
 # LOGISTIC-REGRESSION
- 
-Install Flask
+
+Weather prediction using Logistic Regression
+
+1. Install Flask
 ```
 pip install Flask
 ```
 
-Run app
+2. Run the app
 ```
-py app.py
+python app.py
 ```
